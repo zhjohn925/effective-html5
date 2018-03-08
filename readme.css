@@ -1,0 +1,37 @@
+//Define a Style
+     Property        :  Value 
+ie.  background-color:  grey ;
+
+//If no type of character encoding is specified in html or in css,
+//   then UTF-8 will be used by default
+
+//Specifying a Type of Character Encoding in a Stylesheet
+@charset "UTF-8"
+
+//Importing from another stylesheet
+//The @import statement can offer slower performance
+//    than using multiple link elements
+@import "style.css"
+
+//A complete list of color
+www.w3.org/TR/css3-color
+
+//Specifying more complex colors:
+color: rgb(112, 128, 144)
+color: rgb(112, 128, 144, 0.4)
+color: hsl(120, 100%, 22%)        //hue, saturation, lightness
+color: hsl(120, 100%, 22%, 0.4)   //hue, saturation, lightness, opacity
+
+//Working with Absoluate lengths
+in,  cm,  mm,  
+pt (1 point is 1/72 of an inch)
+pc (1 pica is 12 points)
+
+//Working with Relative lengths
+em   (Relative to the font size of the element)
+ex   (Relative to "x-height" of the element's font)
+     As a rule of thumb, 1ex is approximately 0.5em 
+rem  (Relative to the font size of the html element, also known as the root element)
+px   (A number of CSS pixels - assumed to be on a 96dpi display)
+     1px is roughly 1/96 of an inch
+%    (A percentage of the value of another property)

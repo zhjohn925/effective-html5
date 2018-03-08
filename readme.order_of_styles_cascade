@@ -1,0 +1,17 @@
+The order of Styles Cascade is very specific:
+  1. Inline styles (styles that are defined using the style global 
+     attribute on an element)
+  2. Embedded styles (styles that are defined in a style element)
+  3. External styles (styles that are imported using the link element)
+  4. User styles (styles that have been defined by the user)
+  5. Browser styles (the default styles applied by the browser)
+
+The order of Styles Cascade to an element defined at the same level:
+  1. The number of id values in the style’s selector
+  2. The number of other attributes and pseudo-classes in the selector
+  3. The number of element names and pseudo-elements in the selector
+
+Tweaking the order with Important Styles
+  ie.  color: black !important;
+The browser gives perference to important styles, regardless of 
+  where they are defined.

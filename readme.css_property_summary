@@ -1,0 +1,17 @@
+Property                Description
+---------------------+---------------------------------------------
+background-color        Sets the background color of an element
+color                   Sets the foreground color of an element
+
+font-size               Sets the font size of an element's text
+text-decoration         Sets the decoration applied to an element's text
+                        - including underlining
+
+height                  Sets the height of an element
+width                   Sets the width of an element
+
+border                  Defines the border that surrounds an element
+padding                 Specifies the amount of space between an element's
+                        content and its border
+
+ 

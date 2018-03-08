@@ -1,0 +1,30 @@
+--The first is the web site http://caniuse.com, which provides a comprehensive analysis of which
+versions of which browsers support HTML5 and CSS3 features. Detailed information is available on a
+wide range of desktop and mobile browsers on a range of operating systems. Also, there are some simple
+decision-support tools that are tied to browser popularity and market penetration. I find this web site
+very useful when starting a new project to get a feel for which features I can reasonably rely on. It makes
+tracking the fragmented standard process and browser implementation reasonably simple.
+
+--The second tool is Modernizr (www.modernizr.com), which tests for individual features dynamically. It
+takes the form of a small JavaScript library that tests for the presence of key HTML5 and CSS features,
+allowing you to adapt to the features that the user’s browser supports. It also has some other nice
+features, such as enabling the styling of the new HTML5 semantic elements (described in Chapter 10) in
+older versions of Internet Explorer.
+
+--Enhancing CSS with LESS
+When you start working with CSS, you will quickly realize that it is a verbose and repetitive way of
+expressing styles. There is a lot of duplication, which can make long-term maintenance of your styles
+time consuming and error prone.
+You can extend CSS using LESS, which uses JavaScript to enhance CSS. It supports some nice
+features, such as variables, inheritance from one style to another, and functions. I have been using LESS
+a lot lately, and I have been pleased with the results. You can get details and download the JavaScript
+library at http://lesscss.org.
+
+
+--Using a CSS Framework
+A number of high-quality CSS frameworks are available that you can use as the foundation for web sites
+and web applications. These frameworks contain sets of styles, which mean you don’t have to reinvent
+the wheel. The better frameworks also smooth out the differences in implementation between browsers.
+The CSS framework that I recommend is Blueprint, which is available for download at
+www.blueprintcss.org. It is simple to use and very flexible, and it has an excellent system for creating
+grid layouts.
